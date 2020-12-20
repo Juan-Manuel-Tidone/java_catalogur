@@ -25,6 +25,7 @@ public class CatalogueItem {
     @Column(name = "ID", unique = true, nullable = false)
     private Long Id;
 
+
     @NotEmpty(message = "SKU cannot be null or empty")
     @NonNull
     @Column(name = "SKU_NUMBER", unique = true, nullable = false, length = 16)
