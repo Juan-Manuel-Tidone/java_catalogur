@@ -7,6 +7,7 @@ public class CatalogueControllerAPIPaths {
     public static final String CREATE = "/";
     public static final String GET_ITEMS = "/";
     public static final String GET_ITEM = "/{sku}";
+    public static final String GET_ITEMS_NAME = "/name/{name}";
     public static final String UPDATE = "/{sku}";
     public static final String DELETE = "/{sku}";
     public static final String UPLOAD_IMAGE = "/{sku}/image";
